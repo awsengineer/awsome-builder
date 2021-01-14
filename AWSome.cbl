@@ -1,5 +1,5 @@
        IDENTIFICATION DIVISION.
-       PROGRAM-ID.  hello.
+       PROGRAM-ID.  AWSome.
 
        PROCEDURE DIVISION.
        DisplayPrompt.
