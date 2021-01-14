@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: cobol-pod
+  namespace: default
+spec:
+  containers:
+  - image: ezzobad/awsome-builder:HelloCobol
+    imagePullPolicy: Always
+    name: cobol-container
+  restartPolicy: Never
