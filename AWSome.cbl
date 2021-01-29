@@ -3,5 +3,5 @@
 
        PROCEDURE DIVISION.
        DisplayPrompt.
-           DISPLAY "Good evening folks! I am a COBOL code running on AIX.".
+           DISPLAY "G'day! I am a COBOL code running on AIX :) test git fetch".
            STOP RUN.
