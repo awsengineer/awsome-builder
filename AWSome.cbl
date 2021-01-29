@@ -1,6 +1,7 @@
        IDENTIFICATION DIVISION.
-       PROGRAM-ID.  ABIII.
+      PROGRAM-ID.  ABIII.
+
        PROCEDURE DIVISION.
        DisplayPrompt.
-           DISPLAY "Hello team! I am a COBOL code running on AIX.".
+           DISPLAY "Woohoo... Let's automate!".
            STOP RUN.
