@@ -1,6 +1,7 @@
-       IDENTIFICATION DIVISION.
-       PROGRAM-ID.  ABIII.
+      IDENTIFICATION DIVISION.
+      PROGRAM-ID.  ABIII.
+
        PROCEDURE DIVISION.
        DisplayPrompt.
-           DISPLAY "Hiii! I am a legacy COBOL code running on AIX.".
+           DISPLAY "OK! Let's automate!".
            STOP RUN.
