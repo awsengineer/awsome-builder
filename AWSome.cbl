@@ -1,7 +1,7 @@
        IDENTIFICATION DIVISION.
-       PROGRAM-ID.  AWSome.
+       PROGRAM-ID.  ABIII.
 
        PROCEDURE DIVISION.
        DisplayPrompt.
-           DISPLAY "G'day! I am a COBOL code running on AIX :) 2411".
+           DISPLAY "Good day! I am a COBOL code running on AIX.".
            STOP RUN.
