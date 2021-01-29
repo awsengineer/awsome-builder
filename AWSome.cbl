@@ -3,5 +3,5 @@
 
        PROCEDURE DIVISION.
        DisplayPrompt.
-           DISPLAY "Woohoo... Let's automate!".
+           DISPLAY "OK! Let's automate!".
            STOP RUN.
