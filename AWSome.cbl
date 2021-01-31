@@ -1,6 +1,7 @@
-       IDENTIFICATION DIVISION.
-       PROGRAM-ID.  ABIII.
+      IDENTIFICATION DIVISION.
+      PROGRAM-ID.  ABIII.
+
        PROCEDURE DIVISION.
        DisplayPrompt.
-           DISPLAY "Good day! I am a freaking code running on AIX.".
+           DISPLAY "OK! Let's automate! Shall we?".
            STOP RUN.
