@@ -4,8 +4,8 @@ wget https://raw.githubusercontent.com/awsengineer/awsome-builder/main/gnucobol-
 xz -d gnucobol-3.1.2.tar.xz
 tar xvf gnucobol-3.1.2.tar >/dev/null 2>&1
 cd gnucobol-3.1.2
-# ./configure
-# make
-# make install
-# echo '/usr/local/lib' > /etc/ld.so.conf.d/gnu-cobol-3.0.conf
-# /sbin/ldconfig
+./configure
+make
+make install
+echo '/usr/local/lib' > /etc/ld.so.conf.d/gnu-cobol-3.0.conf
+/sbin/ldconfig
