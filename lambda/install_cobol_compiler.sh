@@ -1,5 +1,5 @@
 yum install https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm -y
-yum --enablerepo=epel install -y wget gawk make gcc automake byacc gmp mpir-devel libdb-devel xz >/dev/null 2>&1
+yum --enablerepo=epel install -y tar wget gawk make gcc automake byacc gmp mpir-devel libdb-devel xz >/dev/null 2>&1
 set -x
 wget https://raw.githubusercontent.com/awsengineer/awsome-builder/main/gnucobol-3.1.2.tar.xz >/dev/null >/dev/null 2>&1
 ls
