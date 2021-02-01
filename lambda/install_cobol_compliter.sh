@@ -1,4 +1,4 @@
-yum install https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm -y
+yum install https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm -y
 yum --enablerepo=epel install -y wget gawk make gcc automake byacc gmp mpir-devel libdb-devel
 wget https://udomain.dl.sourceforge.net/project/gnucobol/gnucobol/3.1/gnucobol-3.1.2.tar.xz >/dev/null >/dev/null 2>&1
 tar xvf gnucobol-3.1.2.tar.xz >/dev/null 2>&1
