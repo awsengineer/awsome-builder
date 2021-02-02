@@ -1,4 +1,5 @@
-import sys
+import sys, subprocess
 def handler(event, context):
-    return 'Hello from AWS Lambda using Python' + '!'
-EOF
+    cobol_app_result="/usr/local/bin/cobol_app"
+    print (subprocess.check_output(cobol_app_result, shell=True))
+    return
