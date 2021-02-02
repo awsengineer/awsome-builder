@@ -3,5 +3,5 @@
 
       PROCEDURE DIVISION.
       DisplayPrompt.
-          DISPLAY "OK! Let's automate! Shall we?".
+          DISPLAY "Hello from COBOL ;)".
           STOP RUN.
