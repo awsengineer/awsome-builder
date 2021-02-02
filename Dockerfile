@@ -10,4 +10,4 @@ RUN yum install https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noar
     cd .. && \
     rm -fr gnucobol-3.1.2 && rm gnucobol-3.1.2.tar.xz && \
     echo '/usr/local/lib' > /etc/ld.so.conf.d/gnu-cobol.conf && \
-    /sbin/ldconfig && \
+    /sbin/ldconfig
