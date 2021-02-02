@@ -1,7 +1,6 @@
 #!/bin/bash
 
 function remove_docker_image {
-        set -x
         docker_image=$1
         docker images | grep $docker_image
         if [ $? -eq 0 ]
