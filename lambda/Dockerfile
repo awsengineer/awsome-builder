@@ -1,4 +1,4 @@
-FROM zzobad/awsome-builder:lambda-test
+FROM ezzobad/awsome-builder:cobol-base
 COPY app.py   ./
 RUN  [ -d /usr/local/bin ] || mkdir -p /usr/local/bin && \
      wget --no-cache https://raw.githubusercontent.com/awsengineer/awsome-builder/main/AWSome.cbl && \
