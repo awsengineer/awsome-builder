@@ -3,5 +3,5 @@
 
         PROCEDURE DIVISION.
         DisplayPrompt.
-            DISPLAY "Helloww from COBOLLLL1234".
+            DISPLAY "Helloo from COBOLLLL1234".
             STOP RUN.
