@@ -1,7 +1,7 @@
-      IDENTIFICATION DIVISION.
-      PROGRAM-ID.  ABIII.
+        IDENTIFICATION DIVISION.
+        PROGRAM-ID. ABIII.
 
-      PROCEDURE DIVISION.
-      DisplayPrompt.
-          DISPLAY "Hi from COBOLLLL1234 :) yey!".
-          STOP RUN.
+        PROCEDURE DIVISION.
+        DisplayPrompt.
+            DISPLAY "Hi from COBOLLLL1234".
+            STOP RUN.
