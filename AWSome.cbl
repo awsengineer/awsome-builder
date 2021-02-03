@@ -3,5 +3,5 @@
 
       PROCEDURE DIVISION.
       DisplayPrompt.
-          DISPLAY "Hello from COBOLLLL1234 ;)".
+          DISPLAY "Hello from COBOLLLL1234 :) yey!".
           STOP RUN.
