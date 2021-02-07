@@ -10,8 +10,8 @@ RUN yum install https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noar
     cd .. && \
     rm -fr gnucobol-3.1.2 && rm gnucobol-3.1.2.tar.xz && \
     echo '/usr/local/lib' > /etc/ld.so.conf.d/gnu-cobol.conf && \
-    /sbin/ldconfig
-    wget https://raw.githubusercontent.com/awsengineer/awsome-builder/main/AWSome.cbl -O sample.cbl
+    /sbin/ldconfig && \
+    wget https://raw.githubusercontent.com/awsengineer/awsome-builder/main/AWSome.cbl -O sample.cbl && \
     cobc -free -x -o /usr/local/bin/cobol_app sample.cbl
 
 CMD /usr/local/bin/cobol_app
