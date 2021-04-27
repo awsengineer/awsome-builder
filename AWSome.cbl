@@ -1,7 +1,7 @@
         IDENTIFICATION DIVISION.
-        PROGRAM-ID. ABIII.
+        PROGRAM-ID. ROSA_Demo.
 
         PROCEDURE DIVISION.
         DisplayPrompt.
-            DISPLAY "AIX rocks!".
+            DISPLAY "AIX rocks! And so ROSA :)".
             STOP RUN.
