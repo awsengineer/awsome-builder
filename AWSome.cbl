@@ -3,5 +3,5 @@
 
         PROCEDURE DIVISION.
         DisplayPrompt.
-            DISPLAY "Yellow from COBOLLLL1234".
+            DISPLAY "AIX rocks!".
             STOP RUN.
