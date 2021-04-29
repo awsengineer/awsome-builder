@@ -3,5 +3,5 @@
 
         PROCEDURE DIVISION.
         DisplayPrompt.
-            DISPLAY "AIX rocks!".
+            DISPLAY "AIX rocks, and so ROSA!".
             STOP RUN.
